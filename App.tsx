@@ -3,6 +3,7 @@ import {View} from 'react-native';
 import React, {useEffect} from 'react';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import {NavigationContainer} from '@react-navigation/native';
+import {Camera} from 'react-native-vision-camera';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import Home from './src/Screens/Home';
 import Scanner from './src/Screens/Scanner';
@@ -10,7 +11,6 @@ import Recipes from './src/Screens/Recipes';
 import {Home_Nav, Recipe_Nav, Scanner_Nav} from './src/Constants/Navigation';
 import {Brown, Gray, White, Orange} from './src/Constants/Colors';
 import {Hp} from './src/Constants/Hooks';
-import {Camera} from 'react-native-vision-camera';
 
 const IconComponent = (focused: boolean, name: string) => {
   return (

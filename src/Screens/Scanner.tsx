@@ -13,7 +13,7 @@ import {Camera, useCameraDevice} from 'react-native-vision-camera';
 import {Svg, Defs, Rect, Mask, LinearGradient, Stop} from 'react-native-svg';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import Entypo from 'react-native-vector-icons/Entypo';
-import {FabricsValues} from '../Constants/RecipeList';
+import {FabricsValues} from '../Constants/Datas';
 import {FabricsType} from '../Constants/Types';
 import {
   Black,
@@ -182,6 +182,7 @@ const styles = StyleSheet.create({
   Icon: {
     fontSize: 24,
     fontFamily: Poppins,
+    color: Black,
   },
   TypeTxt: {
     fontSize: 16,

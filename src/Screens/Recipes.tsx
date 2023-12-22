@@ -9,7 +9,7 @@ import React from 'react';
 import {SafeAreaView} from 'react-native-safe-area-context';
 import {Black, Gray, LightPink, White} from '../Constants/Colors';
 import {Hp, Wp} from '../Constants/Hooks';
-import {CategoryList, RecipeList} from '../Constants/RecipeList';
+import {CategoryList, RecipeList} from '../Constants/Datas';
 import {CategoryType, RecipeType} from '../Constants/Types';
 import RecipeCard from '../Components/RecipeCard';
 import {Large, Poppins, Small} from '../Constants/Styles';
@@ -88,9 +88,9 @@ const styles = StyleSheet.create({
     fontFamily: Poppins,
   },
   HeadTxt: {
-    fontSize: 20,
+    fontSize: 26,
     color: Black,
-    fontWeight: '700',
+    fontWeight: '600',
     fontFamily: Poppins,
   },
   CategoryCard: {
@@ -113,6 +113,7 @@ const styles = StyleSheet.create({
   },
   CatIcon: {
     fontSize: 20,
+    color: Black,
   },
   CatName: {
     fontSize: 14,

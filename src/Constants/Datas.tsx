@@ -3,8 +3,7 @@ import {CategoryType, FabricsType, RecipeType} from './Types';
 export const RecipeList: RecipeType[] = [
   {
     id: 1,
-    image: require('../Assets/Images/idli-recipe-1.webp'),
-    // 'https://www.vegrecipesofindia.com/wp-content/uploads/2021/06/idli-recipe-1.jpg',
+    image: require('../Assets/Images/4-cabbage-soup.jpg'),
     itemTime: 'BreckFast',
     itemDiscription: 'Cabbage Weight Loss Suop',
     itemWeight: 200,
@@ -12,8 +11,7 @@ export const RecipeList: RecipeType[] = [
   },
   {
     id: 2,
-    image: require('../Assets/Images/burger+photography.jpg'),
-    // 'https://images.squarespace-cdn.com/content/v1/60d4c5f1b364934cf68bf57f/1631122796525-QH1A180BU57QFF1IHG99/burger+photography.jpg',
+    image: require('../Assets/Images/intro-1663771590.jpg'),
     itemTime: 'Lunch',
     itemDiscription: 'Avocada Toast with Poched Eggs',
     itemWeight: 300,
@@ -21,8 +19,7 @@ export const RecipeList: RecipeType[] = [
   },
   {
     id: 3,
-    image: require('../Assets/Images/pexels-photo-376464.jpeg'),
-    // 'https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    image: require('../Assets/Images/super-food-salmon-salad-hero.jpg'),
     itemTime: 'Dinner',
     itemDiscription: 'Griled Slamon with salad',
     itemWeight: 360,
@@ -67,7 +64,7 @@ export const FabricsValues: FabricsType[] = [
     valueType: 'g',
   },
   {
-    icon: '🍔',
+    icon: '🍯',
     type: 'Fat',
     value: 19.3,
     valueType: 'g',

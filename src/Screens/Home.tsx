@@ -3,7 +3,7 @@ import {Image, StyleSheet, Text, View, FlatList} from 'react-native';
 import React from 'react';
 import {SafeAreaView} from 'react-native-safe-area-context';
 import {LineChart} from 'react-native-chart-kit';
-import {ProfilePic, RecipeList, TopImage} from '../Constants/RecipeList';
+import {ProfilePic, RecipeList, TopImage} from '../Constants/Datas';
 import {Hp, Wp} from '../Constants/Hooks';
 import {Black, Gray, White} from '../Constants/Colors';
 import {RecipeType} from '../Constants/Types';
@@ -164,12 +164,12 @@ const styles = StyleSheet.create({
   },
   ThirdTxt: {
     color: Black,
-    fontSize: 24,
-    fontWeight: '700',
+    fontSize: 26,
+    fontWeight: '600',
     fontFamily: Poppins,
   },
   ThirdComp: {
-    gap: Hp(2),
+    gap: Hp(0.5),
     paddingVertical: Hp(2),
   },
 });
