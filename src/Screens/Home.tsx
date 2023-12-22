@@ -1,5 +1,5 @@
 /* eslint-disable react-native/no-inline-styles */
-import {Image, StyleSheet, Text, View, FlatList} from 'react-native';
+import {Image, StyleSheet, Text, View, FlatList, StatusBar} from 'react-native';
 import React from 'react';
 import {SafeAreaView} from 'react-native-safe-area-context';
 import {LineChart} from 'react-native-chart-kit';
@@ -106,6 +106,7 @@ const ThirdComponent = () => {
 const Home = () => {
   return (
     <SafeAreaView style={styles.Container}>
+      <StatusBar hidden={true} barStyle={'light-content'} />
       <HeaderComponent />
       <SecondComponent />
       <ThirdComponent />

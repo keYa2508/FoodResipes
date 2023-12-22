@@ -6,6 +6,7 @@ import {
   Text,
   View,
   TouchableOpacity,
+  StatusBar,
 } from 'react-native';
 import React, {useCallback, useEffect} from 'react';
 import {SafeAreaView} from 'react-native-safe-area-context';
@@ -145,6 +146,12 @@ const BottomComponent = () => {
 const Scanner = () => {
   return (
     <SafeAreaView style={styles.Container}>
+      <StatusBar
+        hidden={true}
+        showHideTransition={'none'}
+        barStyle={'light-content'}
+        translucent={true}
+      />
       <CameraComponent />
       <BottomComponent />
     </SafeAreaView>
